@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>hello</title>
+  </head>
+  <body>
+    <div class="full">
+    <h2 class="head">Contact Us</h2>
+    <form action="">
+      <div>Name : <input class="name" placeholder="Enter your Name" required type="text" name="username" id="name" /></div><br />
+      <div>Email : <input class="email" placeholder="Enter Your Email" required type="email" name="useremail" id="email" /></div><br />
+      <div>
+        Address :
+        <textarea class="address"  required name="usermessage" id="message" cols="20" rows="5"></textarea><br /><br />
+      </div>
+      <div>Number : <input class="number" placeholder="Enter your Number" required type="number" name="usernumber" id="number" /></div><br />
+      <div>
+        Gender:
+        <select name="usergender" id="gender">
+          <option value="choose">Choose</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div><br />
+      <div>
+        Frontend: <input   required type="checkbox" name="skills" id="frontend" /> Backend:
+        <input required type="checkbox" name="skills" id="backend" />
+      </div><br />
+      <fieldset>
+        <legend>Mode of Payment</legend>
+        Cash:<input required type="radio" name="payment" id="cash" /> Bank:<input
+          type="radio"
+          name="payment"
+          id="bank"
+        />
+      </fieldset><br />
+      <div>
+        Password <input class="pass" placeholder="Enter your Password" required type="password" name="password" id="password" />
+      </div><br />
+      <div>
+        <input class="file" required type="file" name="file" id="file">
+      </div><br />
+      <button class="submit" type="submit">submit</button><br />
+    </form>
+  </div>
+  </body>
+</html>
+<footer>
+  <h1>All Rights Reserved @Abuzar Khan</h1>
+</footer>
